@@ -20,8 +20,8 @@ public class GridTest {
 		
 		grid.init("5 7");
 		
-		assertEquals(5, grid.getWidth());
-		assertEquals(7, grid.getHeight());
+		assertEquals(6, grid.getWidth());
+		assertEquals(8, grid.getHeight());
 	}
 
 	@Test(expected = IllegalArgumentException.class)
